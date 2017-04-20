@@ -1,0 +1,17 @@
+{
+  "lines": 15,
+  "statements": 15,
+  "functions": 15,
+  "branches": 15,
+  "include": [
+    "src/**/*.js"
+  ],
+  "require": [
+    "babel-core/register"
+  ],
+  "cache": true,
+  "check-coverage": true,
+  "all": true,
+  "sourceMap": false,
+  "instrument": false
+}

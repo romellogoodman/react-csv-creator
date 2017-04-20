@@ -1,0 +1,14 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        "istanbul"
+      ]
+    }
+  },
+  "presets": [
+    "react",
+    "es2015",
+    "stage-0"
+  ]
+}
