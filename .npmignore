@@ -1,0 +1,15 @@
+.nyc_output
+.storybook
+coverage
+node_modules
+src
+stories
+tests
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc
+.gitignore
+.nycrc
+LICENSE
+webpack.config.js
