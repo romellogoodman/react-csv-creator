@@ -2,7 +2,7 @@ react-csv-creator
 ---
 A react component for downloading data into a csv file.
 
-Development utilizes [storybook](https://getstorybook.io/).
+Development utilizes [storybook](https://getstorybook.io/) and based on [react-storybook-boilerplate](https://github.com/romellogood/react-storybook-boilerplate).
 
 ### running
 ```
@@ -52,6 +52,7 @@ const rows = [{
   filename='my_cool_csv'
   headers={headers}
   rows={rows}
-  text='Download Stuff'
-/>
+>
+  <p>Download CSV</p>
+</CsvCreator>
 ```
