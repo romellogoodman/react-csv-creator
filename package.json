@@ -24,8 +24,7 @@
   },
   "peerDependencies": {
     "prop-types": "^15.5.8",
-    "react": "^15.5.4",
-    "styled-components": "^2.0.0-15"
+    "react": "^15.5.4"
   },
   "devDependencies": {
     "@kadira/storybook": "^2.21.0",

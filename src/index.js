@@ -1,1 +1,3 @@
-export {default as Title} from './components/Title';
+import CsvCreator from './components/CsvCreator';
+
+export default CsvCreator;
