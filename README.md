@@ -17,15 +17,14 @@ $ npm publish
 ```
 
 ### props
-| Name      | Type         | Default      | Required | Description                                                   |
-|:----------|:-------------|:-------------|:---------|:--------------------------------------------------------------|
-| disabled  | bool         | false        | false    | Disable the downloading of the csv                            |
-| headers   | array object | null         | false    | Header's names                                                |
-| filename  | string       | current time | false    | The filename without extension. Defaults to current date/time |
-| noHeader  | bool         | false        | false    | If true, will omit the header from the file                   |
-| rows      | array object | null         | true     | The main data for the csv                                     |
-| separator | string       | ','          | false    |                                                               |
-| text      | string       | null         | false    | The text to use if no children component                      |
+| Name     | Type         | Default      | Required | Description                                                   |
+|:---------|:-------------|:-------------|:---------|:--------------------------------------------------------------|
+| disabled | bool         | false        | false    | Disable the downloading of the csv                            |
+| headers  | array object | null         | false    | Header's names                                                |
+| filename | string       | current time | false    | The filename without extension. Defaults to current date/time |
+| noHeader | bool         | false        | false    | If true, will omit the header from the file                   |
+| rows     | array object | null         | true     | The main data for the csv                                     |
+| text     | string       | null         | false    | The text to use if no children component                      |
 
 
 ### Usage
