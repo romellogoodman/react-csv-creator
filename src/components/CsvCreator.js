@@ -91,7 +91,7 @@ const CsvCreator = props => {
    * Handles the click
    * @return {Void} Returns nothing
    */
-  function handeClick () {
+  function handleClick () {
     downloadCsv(
       formatData(noHeader ? [] : headers, rows),
       filename
@@ -99,7 +99,7 @@ const CsvCreator = props => {
   }
 
   return (
-    <div onClick={disabled ? null : handeClick}>
+    <div onClick={disabled ? null : handleClick}>
       {display}
     </div>
   );
