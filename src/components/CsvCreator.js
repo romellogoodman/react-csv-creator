@@ -19,12 +19,13 @@ const CsvCreator = props => {
    * @param {String} csvFileName the document's file name
    * @return {Void} Returns nothing
    */
-  function downloadCsv (csvData, csvFileName = new Date().toISOString()) {
+  function downloadCsv (csvData, csvFileName) {
     const encodedUri = encodeURI(csvData);
+    const formattedFileName = csvFileName || new Date().toISOString();
     const link = document.createElement('a');
 
     link.setAttribute('href', encodedUri);
-    link.setAttribute('download', `${csvFileName}.csv`);
+    link.setAttribute('download', `${formattedFileName}.csv`);
 
     document.body.appendChild(link);
 
