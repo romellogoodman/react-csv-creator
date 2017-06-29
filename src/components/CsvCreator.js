@@ -63,7 +63,7 @@ const CsvCreator = props => {
     if (csvHeaders.length > 0) {
       csvDataArray.push(
         csvHeaders.reduce((result, header) => {
-          result.push(header.id || ' ');
+          result.push(header.display || header.id || ' ');
 
           return result;
         }, [])
