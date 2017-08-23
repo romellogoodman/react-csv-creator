@@ -1,20 +1,20 @@
+language: node_js
+dist: trusty
+node_js:
+  - 7
+  - 6
+script:
+  - node --version
+  - npm --version
+  - npm test
+notifications:
+  email:
+    on_failure: change
+cache:
+  bundler: true
+  directories:
+    - node_modules
 deploy:
-  language: node_js
-  dist: trusty
-  node_js:
-    - 7
-    - 6
-  script:
-    - node --version
-    - npm --version
-    - npm test
-  notifications:
-    email:
-      on_failure: change
-  cache:
-    bundler: true
-    directories:
-      - node_modules
   provider: npm
   email: romellogood@gmail.com
   api_key:
