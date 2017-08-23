@@ -4,10 +4,7 @@ script:
   - node --version
   - npm --version
   - npm test
-after_script:
   - npm run build
-branches:
-  only: "master"
 deploy:
   provider: npm
   email: romellogood@gmail.com
