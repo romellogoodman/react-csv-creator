@@ -1,6 +1,6 @@
 {
   "name": "react-csv-creator",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "./lib/index.js",
   "scripts": {
     "build": "npm run delete && webpack",
