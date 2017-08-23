@@ -1,8 +1,8 @@
 {
-  "lines": 15,
-  "statements": 15,
-  "functions": 15,
-  "branches": 15,
+  "lines": 5,
+  "statements": 5,
+  "functions": 5,
+  "branches": 5,
   "include": [
     "src/**/*.js"
   ],
