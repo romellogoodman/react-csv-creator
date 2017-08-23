@@ -7,6 +7,7 @@ script:
   - node --version
   - npm --version
   - npm test
+  - npm run build
 notifications:
   email:
     on_failure: change
