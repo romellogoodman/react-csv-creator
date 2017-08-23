@@ -1,20 +1,12 @@
 language: node_js
-dist: trusty
 node_js:
-  - 7
-  - 6
+  - "node"
 script:
   - node --version
   - npm --version
   - npm test
+after_script:
   - npm run build
-notifications:
-  email:
-    on_failure: change
-cache:
-  bundler: true
-  directories:
-    - node_modules
 deploy:
   provider: npm
   email: romellogood@gmail.com
