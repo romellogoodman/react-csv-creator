@@ -6,3 +6,19 @@ deploy:
   on:
     tags: true
     repo: romellogood/react-csv-creator
+  language: node_js
+  dist: trusty
+  node_js:
+    - 7
+    - 6
+  script:
+    - node --version
+    - npm --version
+    - npm test
+  notifications:
+    email:
+      on_failure: change
+  cache:
+    bundler: true
+    directories:
+      - node_modules
