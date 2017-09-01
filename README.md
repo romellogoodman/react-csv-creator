@@ -2,6 +2,8 @@ react-csv-creator
 ---
 A react component for downloading data into a csv file.
 
+[![npm](https://img.shields.io/npm/v/react-csv-creator.svg)](https://www.npmjs.com/package/react-csv-creator)
+
 Development utilizes [storybook](https://getstorybook.io/) and based on [react-storybook-boilerplate](https://github.com/romellogood/react-storybook-boilerplate).
 
 ### running
