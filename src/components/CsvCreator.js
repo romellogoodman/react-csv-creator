@@ -74,7 +74,7 @@ const CsvCreator = props => {
     csvDataArray = csvDataArray.concat(
       csvRows.map(row => {
         return keyList.map(key => {
-          return row[key] || ' ';
+          return `"${row[key]}"` || ' ';
         });
       })
     );
