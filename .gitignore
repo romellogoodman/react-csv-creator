@@ -12,8 +12,3 @@ npm-debug.log*
 # OS-specific temporary files
 .idea
 .DS_Store
-
-# test coverage directories
-coverage
-.nyc_output
-reports
